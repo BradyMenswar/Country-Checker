@@ -5,23 +5,37 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #F3F5F7;
 }
 
-nav {
+.container--main {
+    padding: 2.5rem 5rem;
     display: flex;
-    align-items: center;
-    background-color: blue;
-    padding: 30px 25px;
-    height: 90px;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1;
+    gap: 0;
+
+}
+.container--main > img {
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    align-self: center ;
 }
 
-nav > h4 {
-    margin: 0;
-    color: white;
-    font-weight: 600;
-}
+.backButton {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: #4F646F;
 
-nav > img {
-    height: 50px;
-    margin-right: auto;
+
 }

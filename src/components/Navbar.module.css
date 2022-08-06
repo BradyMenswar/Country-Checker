@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #4F646F;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.title {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}

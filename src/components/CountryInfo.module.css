@@ -1,0 +1,48 @@
+.topSection {
+    display: flex;
+    width: 100%;
+    color: #44565F;
+    font-size: 2rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flag {
+    width: 10rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.infoContainer {
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    background-color: #44565F;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.infoColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+}
+
+.info {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+    background-color: #4F646F;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+.infoTitle {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
