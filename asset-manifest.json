@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Country-Checker/static/css/main.67978de7.css",
+    "main.js": "/Country-Checker/static/js/main.c1da247c.js",
+    "static/media/globe.png": "/Country-Checker/static/media/globe.21bb52e69f9f35e07287.png",
+    "static/media/logo.png": "/Country-Checker/static/media/logo.b9bd5931cc9e46498755.png",
+    "index.html": "/Country-Checker/index.html",
+    "main.67978de7.css.map": "/Country-Checker/static/css/main.67978de7.css.map",
+    "main.c1da247c.js.map": "/Country-Checker/static/js/main.c1da247c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67978de7.css",
+    "static/js/main.c1da247c.js"
+  ]
+}
