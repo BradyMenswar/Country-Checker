@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 import {createRoot} from 'react-dom/client'
 import SearchPage from "./pages/SearchPage"
 import Navbar from "./components/Navbar"
