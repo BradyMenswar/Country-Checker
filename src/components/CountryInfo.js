@@ -14,7 +14,6 @@ export default function CountryInfo(props) {
 				return response.json();
 			})
 			.then((data) => {
-				console.log(data);
 				setIsLoading(false);
 				setLoadedCountry(data);
 			});

@@ -12,13 +12,6 @@ export default function SearchBar() {
 	const [suggestedCountry, setSuggestedCountry] = useState([]);
 	const [loadedFlag, setLoadedFlag] = useState([]);
 
-	// function onSearch(event) {
-	//     event.preventDefault();
-	//     const enteredSearch = searchRef.current.value;
-	//     console.log(enteredSearch)
-	//     navigate('/country', {state: enteredSearch})
-	// }
-
 	function onCountrySelected(country) {
 		navigate("/country", { state: country });
 	}
